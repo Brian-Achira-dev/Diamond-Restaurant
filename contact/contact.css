@@ -1,6 +1,6 @@
 @import url("/about/about.css");
 @import url("/home/contact.css");
-@import url("menu.css");
+@import url("/menumenu.css");
 
 .contact-banner{
     height: 40vh;
