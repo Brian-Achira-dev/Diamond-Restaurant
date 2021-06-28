@@ -1,0 +1,254 @@
+@import url("/about/about.css");
+@import url("/contact/contact.css");
+@import url("/home/menu.css");
+
+
+.menu-logo{
+    background-color: black;
+    color: #ffffff;
+    font-family: 'Dancing Script';
+    text-align: center;
+    width: 100%;
+    height: 15vh;
+    position: relative;
+    z-index: -1;
+    
+}
+
+.menu-logo h1{
+    font-size: 50px;
+    font-weight: bolder;
+    position: absolute;
+    top: 20%;
+    left: 35%;
+    
+}
+
+@media screen and (min-width: 768px){
+    .menu-logo h1{
+        font-size: 50px;
+        font-weight: bolder;
+        position: absolute;
+        top: 20%;
+        left: 45%;
+    }
+    
+    
+}
+
+.categories{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-left: 10%;
+    padding: 20px 0px;
+    background-color: transparent;
+    font-family: 'Roboto Mono';
+    width: 80%;
+    border-bottom: 1px solid white;
+}
+
+.menu-wrapper{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-image: url(https://images.unsplash.com/photo-1601065700897-d9fa1c093f3e?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Y2FmZSUyMGludGVyaW9yfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 340vh;
+    color: white;
+}
+
+.overlay{
+    background-color: rgba(0, 0, 0, 0.8);
+    width: 100%;
+    height: 340vh;
+}
+
+
+.menu-items{
+    background-color: white;
+    margin: 20% 20% 0 20%;
+    border: 2px solid black;
+    border-radius: 10px;
+    height: 57vh;
+    padding-top: 1rem;
+    position: relative;
+    font-family: 'Montserrat';
+}
+
+.menu-items img{
+    margin-top: 2rem;
+    border-bottom: 1px solid black;
+    
+}
+
+.menu-items a{
+    color: black;
+    text-decoration: none;
+    
+}
+
+.menu-items a h3{
+    border: 1px solid black;
+    border-radius: 50px;
+    position: absolute;
+    top: 60%;
+    left: 25%;
+    width: 50%;
+    padding: 20px 0px;
+}
+
+.menu-items a h3:hover{
+    background-color: black;
+    color: white;
+}
+
+@media screen and (min-width: 680px) {
+    .menu-items{
+        background-color: white;
+        margin: 15% 20% 0 20%;
+        border: 2px solid black;
+        border-radius: 10px;
+        height: 80vh;
+        padding-top: 1rem;
+        position: relative;
+        font-family: 'Montserrat';
+        
+    }
+    
+    .menu-items img{
+        margin-top: 2rem;
+        border-bottom: 1px solid black;
+        
+    }
+    
+    .menu-items a{
+        color: black;
+        text-decoration: none;
+        
+    }
+    
+    .menu-items a h3{
+        border: 1px solid black;
+        border-radius: 50px;
+        position: absolute;
+        top: 60%;
+        left: 25%;
+        width: 50%;
+        padding: 20px 0px;
+        
+    }
+    
+    .menu-items a h3:hover{
+        background-color: black;
+        color: white;
+    }
+    
+    .overlay{
+        background-color: rgba(0, 0, 0, 0.8);
+        width: 100%;
+        height: 440vh;
+    }
+
+
+    .menu-wrapper{
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        background-image: url(https://images.unsplash.com/photo-1601065700897-d9fa1c093f3e?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Y2FmZSUyMGludGVyaW9yfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60);
+        background-position: center;
+        background-size: cover;
+        width: 100%;
+        height: 440vh;
+        color: white;
+    }
+    
+}
+
+
+@media screen and (min-width: 1010px) {
+    .menu-items{
+        background-color: white;
+        margin: 20% 30% 0 30%;
+        border: 2px solid black;
+        border-radius: 10px;
+        height: 90vh;
+        padding-top: 1rem;
+        position: relative;
+        font-family: 'Montserrat';
+    }
+    
+    .menu-items img{
+        margin-top: 2rem;
+        border-bottom: 1px solid black;
+        
+    }
+    
+    .menu-items a{
+        color: black;
+        text-decoration: none;
+        
+    }
+    
+    .menu-items a h3{
+        border: 1px solid black;
+        border-radius: 50px;
+        position: absolute;
+        top: 60%;
+        left: 25%;
+        width: 50%;
+        padding: 20px 0px;
+    }
+    
+    .menu-items a h3:hover{
+        background-color: black;
+        color: white;
+    }
+    .overlay{
+        background-color: rgba(0, 0, 0, 0.8);
+        width: 100%;
+        height: 560vh;
+    }
+
+    .menu-wrapper{
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        background-image: url(https://images.unsplash.com/photo-1601065700897-d9fa1c093f3e?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Y2FmZSUyMGludGVyaW9yfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60);
+        background-position: center;
+        background-size: cover;
+        width: 100%;
+        height: 560vh;
+        color: white;
+    }
+    
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
