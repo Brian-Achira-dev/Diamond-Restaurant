@@ -36,12 +36,12 @@ MENU PAGES:
 
 
 	4.Veggies:
-		>sausage
-		>kebab
-		>samosa
-		>mandazi
-		>chapati
-		>cake
-		>pie
+		>managu
+		>cabbage
+		>nsaga
+		>sukuma wiki(kales)
+		>Spinach
+		>Kunde
+		>*vegetable salad*
 		
 		
