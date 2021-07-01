@@ -4,6 +4,7 @@
 @import url("/about/about.css");
 @import url("/contact/contact.css");
 @import url("/menu/menu.css");
+@import url("/dishes/dishes.css");
 *{
     margin: 0;
     padding: 0;

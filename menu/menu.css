@@ -1,7 +1,7 @@
 @import url("/about/about.css");
 @import url("/contact/contact.css");
-@import url("/home/menu.css");
-
+@import url("/home/home.css");
+@import url("/dishes/dishes.css");
 
 .menu-logo{
     background-color: black;
@@ -222,6 +222,7 @@
         width: 100%;
         height: 560vh;
         color: white;
+        
     }
     
 
